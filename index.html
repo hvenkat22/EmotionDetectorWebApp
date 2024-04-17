@@ -1,0 +1,11 @@
+<html>
+    <div classname='p-4'> 
+        <h1 classname="text-3xl my-8">Welcome to the Facial Emotion Detector!</h1> 
+        <div classname="flex flex-col border-2 border-sky-500 rounded-xl w-fit p-4"> 
+            <form action="{{url_for('afterclick')}}" method="POST" enctype="multipart/form-data"> 
+                <input type="file" name="file"> 
+                <input type="submit" name="btn"> 
+            </form> 
+        </div> 
+    </div>
+</html>
